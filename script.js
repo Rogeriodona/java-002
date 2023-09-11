@@ -5,9 +5,11 @@ console.log("convert-button")
 
 function convertValues(){
     console.log("convert-button")
-    const inputCurrencyValue = document.querySelector (inputCurrency).value
+    const inputCurrencyValue = document.querySelector (".input-Currency").value
     console.log(inputCurrencyValue)
 }
 
 
-convertButton.addEventListener("Click", convertValues)
+convertButton.addEventListener("click", convertValues)
+
+
