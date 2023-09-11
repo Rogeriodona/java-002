@@ -30,7 +30,7 @@ function convertValues() {
             style:
                 "currency",
             currency: "EUR"
-        }).format(inputCurrencyValue / euroToday)
+        }).format(inputCurrencyValue/euroToday)
 
     }
 
